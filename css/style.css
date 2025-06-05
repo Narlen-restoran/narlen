@@ -62,7 +62,7 @@ header::before {
 }
 
 .logo {
-    font-size: 4rem;
+    font-size: 35px;
     margin-bottom: 1rem;
     color: var(--primary);
     text-shadow: 0 0 15px rgb(230, 186, 128);
