@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narlen | Ресторан</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Прелоадер -->
+    <div class="preloader">
+        <div class="preloader-container">
+            <div class="logo">N A R L E N</div>
+            <div class="loader-bar-container">
+                <div class="loader-bar"></div>
+            </div>
+            <div class="loading-text">Загрузка изысканных блюд... <span id="progress">0</span>%</div>
+            <div class="cutlery">
+                <span class="knife">🍴</span>
+                <span class="fork">🔪</span>
+                <span class="spoon">🥄</span>
+            </div>
+        </div>
+    </div>
+<div class="content-wrapper">
+    <!-- Шапка с фоновым изображением -->
+    <header>
+        <div class="header-content">
+            <div class="logo">N A R L E N</div>
+            <h1>Изысканная кухня и неповторимая атмосфера</h1>
+            <p>Откройте для себя мир изысканных вкусов и авторских блюд</p>
+            <a href="#menus" class="btn">Посмотреть меню</a>
+        </div>
+    </header>
+
+    <!-- Переключатель темы -->
+    <div class="theme-switch">
+        <span class="theme-label">Светлая</span>
+        <label class="switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider"></span>
+        </label>
+        <span class="theme-label">Тёмная</span>
+    </div>
+
+    <!-- Секция с карточками меню -->
+    <section class="menu-section" id="menus">
+        <h2 class="section-title">Наше Меню</h2>
+        <div class="cards-container">
+            <!-- Карточка 1 -->
+            <a href="main.html" class="menu-card fade-in delay-1">
+                <div class="card-image">
+                    <img src="img/osnovn.jpg" alt="Основные блюда">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Основные блюда</h3>
+                    <p class="card-description">Мясные и рыбные деликатесы от шеф-повара</p>
+                </div>
+            </a>
+            
+            <!-- Карточка 2 -->
+            <a href="main2.html" class="menu-card fade-in delay-2">
+                <div class="card-image">
+                    <img src="img/deserts.jpg" alt="Десерты">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Детское меню</h3>
+                    <p class="card-description">Легкие, низкокалорийные блюда... </p>
+                </div>
+            </a>
+            
+            <!-- Карточка 3 -->
+            <a href="main3.html" class="menu-card fade-in delay-3">
+                <div class="card-image">
+                    <img src="img/voda.jpg" alt="Напитки">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Напитки</h3>
+                    <p class="card-description">Авторские коктейли и премиальные спиртные напитки</p>
+                </div>
+            </a>
+        </div>
+    </section>
+</div>
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
