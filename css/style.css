@@ -33,7 +33,7 @@ h1, h2, h3 {
 
 /* Шапка */
 header {
-    background: url(NARLEN.JPG) no-repeat center/cover;
+    background: url('NARLEN.JPG') no-repeat center/cover;
     height: 100vh;
     display: flex;
     flex-direction: column;
